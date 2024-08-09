@@ -83,3 +83,8 @@ curl -X POST -H "Content-Type: application/json" -d @payload.json http://127.0.0
 - **Verify Server Status:** Ensure that the server is running and accessible at `http://127.0.0.1:5000`.
 - **Inspect Server Logs:** Check the server logs for any error messages or stack traces that can provide more details on what went wrong.
 - **Test with Simple Payloads:** Simplify your `payload.json` to include only the required fields and test with known good images and parameters to isolate the problem.
+
+## Acknowledgments
+
+This project was part of a test given by [Monumental](https://www.monumental.co/). The dataset used for developing and testing this solution was provided by Monumental.
+
